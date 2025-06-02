@@ -44,10 +44,6 @@
     </div>
   </section>
 
-  <!-- Resto del contenido sigue igual... -->
-  <!-- IMPORTANTE: Puedes copiar y pegar el resto del código desde tu archivo original aquí abajo,
-       ya que los cambios mayores fueron aplicados a navbar y hero -->
-
   <!-- Historia -->
 <section id="historia" class="max-w-5xl mx-auto px-4 py-16">
   <h3 class="text-3xl font-bold mb-6 text-center">Historia</h3>
@@ -60,30 +56,6 @@
     <img src="img/aparicion.jpg" alt="Santuario" class="md:w-1/3 rounded-xl mt-6 md:mt-0 object-cover shadow-md max-h-80 w-full" loading="lazy">
   </div>
 </section>
-
-  <!-- Lugares por visitar 
-<section id="lugares" class="bg-gray-50 py-16">
-  <div class="max-w-7xl mx-auto px-4">
-    <h3 class="text-3xl font-bold mb-10 text-center">Lugares por visitar</h3>
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="bg-white p-5 rounded-2xl shadow-lg hover:shadow-xl transition">
-        <img src="img/porvisitar3museo.jpg" class="rounded-xl mb-4 h-48 w-full object-cover" />
-        <h4 class="font-semibold text-lg mb-1">Museo del Santuario</h4>
-        <p class="text-sm text-gray-700">Conoce la historia del santuario, sus milagros y las ofrendas dejadas por peregrinos.</p>
-      </div>
-      <div class="bg-white p-5 rounded-2xl shadow-lg hover:shadow-xl transition">
-        <img src="img/porvisitarplaza.jpg" class="rounded-xl mb-4 h-48 w-full object-cover" />
-        <h4 class="font-semibold text-lg mb-1">Plaza de Artesanías</h4>
-        <p class="text-sm text-gray-700">Encuentra recuerdos y productos típicos de la región nariñense.</p>
-      </div>
-      <div class="bg-white p-5 rounded-2xl shadow-lg hover:shadow-xl transition">
-        <img src="img/porvisitarteleferico.jpeg" class="rounded-xl mb-4 h-48 w-full object-cover" />
-        <h4 class="font-semibold text-lg mb-1">Teleférico</h4>
-        <p class="text-sm text-gray-700">1400 metros de recorrido con vista panorámica del cañón y el santuario.</p>
-      </div>
-    </div>
-  </div>
-</section>-->
 
 <!-- Lugares por visitar -->
 <section id="lugares" class="bg-gray-50 py-16">
@@ -198,18 +170,6 @@ if ($result->num_rows > 0) {
     </div>
   </section>
 
-  <!-- Galería 
-<section class="bg-gray-100 py-16">
-  <div class="max-w-7xl mx-auto px-4">
-    <h3 class="text-3xl font-bold mb-8 text-center">Galería de imágenes</h3>
-    <div class="grid md:grid-cols-3 gap-6">
-      <img src="img/porvisitar1.png" class="rounded-xl shadow-lg h-64 w-full object-cover" loading="lazy" />
-      <img src="img/z.jpg" class="rounded-xl shadow-lg h-64 w-full object-cover" loading="lazy" />
-      <img src="img/interior santuario.jpg" class="rounded-xl shadow-lg h-64 w-full object-cover" loading="lazy" />
-    </div>
-  </div>
-</section>-->
-
 <!-- Sección Galería -->
 <section class="bg-gray-100 py-16" id="galeria">
   <div class="max-w-7xl mx-auto px-4" data-aos="fade-up" data-aos-duration="1000">
@@ -273,19 +233,6 @@ if ($result->num_rows > 0) {
   </div>
 </section>
 
-  <!-- Footer 
-  <footer class="bg-gray-100 text-center py-8 mt-16 text-sm text-gray-600">
-    <p>&copy; 2025 – Santuario de Las Lajas. Todos los derechos reservados.</p>
-    <div class="mt-2 space-x-4">
-      <a href="#historia">Historia</a>
-      <a href="#lugares">Lugares</a>
-      <a href="#resena">Reseña</a>
-      <a href="#contacto">Contacto</a>
-    </div>
-  </footer>
-</body>
-</html>-->
-
 <!-- Footer -->
 <footer class="bg-gray-100 text-center py-10 mt-16 text-sm text-gray-600">
   <!-- Descripción -->
@@ -340,10 +287,6 @@ if ($result->num_rows > 0) {
     AOS.init();
   });
 </script>
-
-
-
-
 
 <script>
   function toggleInfo(button) {
